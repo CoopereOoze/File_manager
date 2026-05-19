@@ -23,7 +23,6 @@ def list_all_files(directory):
 
 #  Работа с процессами 
 def run_command(command):
-    """Запуск команд (аналог subprocess для внутренних команд)"""
     pass
 
 # Работа с системной информацией =
