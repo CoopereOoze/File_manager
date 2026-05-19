@@ -1,6 +1,5 @@
 """
-Файловый менеджер - примитивная версия
-Только обязательные функции из задания
+Файловый менеджер 
 """
 
 import os
@@ -40,7 +39,7 @@ while True:
             except FileExistsError:
                 print(f"Папка {parts[1]} уже существует")
         
-        # Перечисление файлов (рекурсивно)
+        # Перечисление файлов 
         elif command == "ls":
             target = current_dir
             if len(parts) > 1:
@@ -53,7 +52,7 @@ while True:
                 print("Путь не существует")
                 continue
             
-            # Рекурсивный обход
+            # Обход
             for root, dirs, files in os.walk(target):
                 for file in files:
                     print(os.path.join(root, file))
