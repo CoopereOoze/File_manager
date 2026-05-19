@@ -86,7 +86,7 @@ class FileManager:
             print("Не директория")
     
     def get_current_dir(self):
-        """Показать текущий каталог (из упражнения 4)"""
+        """Показать текущий каталог"""
         print(self.current_dir)
     
     # Работа с файлами
