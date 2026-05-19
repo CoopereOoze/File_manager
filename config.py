@@ -20,3 +20,6 @@ def load_config():
 
 config = load_config()
 WORK_DIR = config["root_directory"]
+
+# Создаём рабочую директорию
+os.makedirs(WORK_DIR, exist_ok=True)
