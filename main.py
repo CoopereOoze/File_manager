@@ -25,7 +25,7 @@ def list_all_files(directory):
 def run_command(command):
     pass
 
-# Работа с системной информацией =
+# Работа с системной информацией 
 
 def show_system_info():
     """Отображение системной информации """
